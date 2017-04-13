@@ -1,0 +1,11 @@
+> [AZURE.SELECTOR]
+- [Επισκόπηση](../articles/hdinsight/hdinsight-use-hive.md)
+- [Προβολή της ομάδας](../articles/hdinsight/hdinsight-hadoop-use-hive-ambari-view.md)
+- [SSH](../articles/hdinsight/hdinsight-hadoop-use-hive-ssh.md)
+- [Beeline](../articles/hdinsight/hdinsight-hadoop-use-hive-beeline.md)
+- [Καμπύλη](../articles/hdinsight/hdinsight-hadoop-use-hive-curl.md)
+- [PowerShell](../articles/hdinsight/hdinsight-hadoop-use-hive-powershell.md)
+- [.NET](../articles/hdinsight/hdinsight-hadoop-use-hive-dotnet-sdk.md)
+- [Visual Studio](../articles/hdinsight/hdinsight-hadoop-use-hive-visual-studio.md)
+- [Σύνδεση απομακρυσμένης επιφάνειας εργασίας](../articles/hdinsight/hdinsight-hadoop-use-hive-remote-desktop.md)
+- [Κονσόλα ερωτήματος](../articles/hdinsight/hdinsight-hadoop-use-hive-query-console.md)

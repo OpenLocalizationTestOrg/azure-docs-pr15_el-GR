@@ -1,122 +1,121 @@
-# Azure Technical Documentation Contributor Guide
+# <a name="azure-technical-documentation-contributor-guide"></a>Οδηγός συμβολής Azure τεχνική τεκμηρίωση
 
-You've found the GitHub repository that houses the source for the technical documentation that is published to the Azure Documentation Center at [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation).
+Βρείτε το αρχείο φύλαξης GitHub που φιλοξενεί το αρχείο προέλευσης για την τεχνική τεκμηρίωση που είναι δημοσιευμένο στο κέντρο τεκμηρίωση του Azure στο [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation).
 
-This repository also contains guidance to help you contribute to our technical documentation.  For a list of the articles in the contributors' guide, see [the index](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
+Επίσης, αυτό το αποθετήριο δεδομένων περιέχει οδηγίες θα σας βοηθήσουν να συνεισφέρουν σε την τεχνική τεκμηρίωση.  Για μια λίστα με τα άρθρα είναι οι συνεργάτες του οδηγού, ανατρέξτε στο θέμα [το ευρετήριο](https://github.com/Azure/azure-content/blob/master/contributor-guide/contributor-guide-index.md).
 
-## Contribute to Azure documentation
+## <a name="contribute-to-azure-documentation"></a>Συμβάλλει στην τεκμηρίωση του Azure
 
-Thank you for your interest in Azure documentation!
+Σας ευχαριστούμε για το ενδιαφέρον σας στην τεκμηρίωση Azure!
 
-* [Ways to contribute](#ways-to-contribute)
-* [Code of conduct](#code-of-conduct)
-* [About your contributions to Azure content](#about-your-contributions-to-azure-content)
-* [Repository organization](#repository-organization)
-* [Use GitHub, Git, and this repository](#use-github-git-and-this-repository)
-* [How to use markdown to format your topic](#how-to-use-markdown-to-format-your-topic)
-* [Feedback, comments, and support](./contributor-guide/feedback-and-comments.md)
-* [More resources](#more-resources)
-* [Index of all contributors' guide articles](./contributor-guide/contributor-guide-index.md) (opens new page)
+* [Τρόποι για να συνεισφέρετε](#ways-to-contribute)
+* [Κώδικας συμπεριφοράς](#code-of-conduct)
+* [Σχετικά με το εισφορών Azure περιεχόμενο](#about-your-contributions-to-azure-content)
+* [Εταιρεία αποθετήριο δεδομένων](#repository-organization)
+* [Χρήση GitHub, Git και αυτό το αποθετήριο δεδομένων](#use-github-git-and-this-repository)
+* [Πώς μπορείτε να χρησιμοποιήσετε markdown για να μορφοποιήσετε το θέμα](#how-to-use-markdown-to-format-your-topic)
+* [Σχόλια, τα σχόλια και υποστήριξη](./contributor-guide/feedback-and-comments.md)
+* [Περισσότεροι πόροι](#more-resources)
+* [Ευρετήριο άρθρων Οδηγός όλες οι συνεργάτες](./contributor-guide/contributor-guide-index.md) (ανοίγει νέα σελίδα)
 
-## Ways to contribute 
+## <a name="ways-to-contribute"></a>Τρόποι για να συνεισφέρετε 
 
-You can contribute to [Azure documentation](http://azure.microsoft.com/documentation/) in a few different ways:
+Μπορείτε να συνεισφέρετε στην [τεκμηρίωση του Azure](http://azure.microsoft.com/documentation/) με διαφορετικούς τρόπους:
 
-* Contribute to a [forum discussion](http://social.msdn.microsoft.com/Forums/windowsazure/home).
-* Submit Disqus comments at the bottom of articles.
-* You can easily contribute to technical articles in the GitHub user interface. Either find the article in this repository, or visit the article on [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) and click the link in the article that goes to the GitHub source for the article.
-* If you are making substantial changes to an existing article, adding or changing images, or contributing a new article, you need to fork this repository, install Git Bash, Markdown Pad, and learn some git commands.
+* Συνεργάτης σε [φόρουμ συζήτησης](http://social.msdn.microsoft.com/Forums/windowsazure/home).
+* Υποβολή σχολίων Disqus στο κάτω μέρος άρθρα.
+* Μπορείτε εύκολα να συμβάλει στην τεχνικά άρθρα στο περιβάλλον εργασίας χρήστη GitHub. Βρείτε στο άρθρο σε αυτό το αποθετήριο δεδομένων, ή ανατρέξτε στο άρθρο [http://azure.microsoft.com/documentation](http://azure.microsoft.com/documentation) και κάντε κλικ στη σύνδεση στο άρθρο που αντιστοιχεί στην προέλευση GitHub για το άρθρο.
+* Εάν κάνετε σημαντικές αλλαγές σε ένα υπάρχον άρθρο, προσθήκη ή αλλαγή εικόνων ή συνεισφορά ένα νέο άρθρο, πρέπει να διαχωρίζονται αυτό το αποθετήριο δεδομένων, εγκατάσταση Git πάρτι, Markdown πληκτρολόγιο, και μάθετε ορισμένες εντολές git.
 
-##Code of conduct
+##<a name="code-of-conduct"></a>Κώδικας συμπεριφοράς
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Αυτό το έργο έχει υιοθετήσει το [Microsoft Open προέλευσης κώδικα συμπεριφοράς](https://opensource.microsoft.com/codeofconduct/). Για περισσότερες πληροφορίες, ανατρέξτε στο [Κώδικα της διεξαγωγή συνήθεις Ερωτήσεις](https://opensource.microsoft.com/codeofconduct/faq/) ή επαφή [opencode@microsoft.com](mailto:opencode@microsoft.com) με τυχόν πρόσθετες ερωτήσεις ή σχόλια.
 
-##About your contributions to Azure content
+##<a name="about-your-contributions-to-azure-content"></a>Σχετικά με το εισφορών Azure περιεχόμενο
 
-###Minor corrections
+###<a name="minor-corrections"></a>Μικρή διορθώσεις
 
-Minor corrections or clarifications you submit for documentation and code examples in this repo are covered by the [Azure Website Terms of Use (ToU)](http://azure.microsoft.com/support/legal/website-terms-of-use/).
+Μικρή διόρθωσης ή διευκρινίσεις υποβολή για παραδείγματα τεκμηρίωση και τον κωδικό σε αυτό το repo καλύπτονται από το [Azure τοποθεσία Web τους όρους χρήσης (περιλαμβάνονται)](http://azure.microsoft.com/support/legal/website-terms-of-use/).
 
 
-###Larger submissions
+###<a name="larger-submissions"></a>Μεγαλύτερο υποβολών
 
-If you submit a pull request with new or significant changes to documentation and code examples, we'll send a comment in GitHub asking you to submit an online Contribution License Agreement (CLA) if you are in one of these groups:
+Εάν υποβάλετε μια αίτηση ελκυστική με νέα ή σημαντικές αλλαγές στις τεκμηρίωση και παραδείγματα κώδικα, θα σας στείλουμε ένα σχόλιο στο GitHub που σας ζητά να υποβάλετε μια ηλεκτρονική σύμβασης άδειας χρήσης συνεισφορά (CLA), εάν βρίσκεστε σε μία από αυτές τις ομάδες:
 
-* Members of the Microsoft Open Technologies group.
-* Contributors who don't work for Microsoft.
+* Τα μέλη της ομάδας Άνοιγμα τεχνολογίες της Microsoft.
+* Οι συνεργάτες που δεν εργάζονται για τη Microsoft.
 
-We need you to complete the online form before we can accept your pull request.
+Πρέπει να ολοκληρώσετε την ηλεκτρονική φόρμα πριν θα σας μπορεί να αποδεχτεί την αίτησή σας ελκυστική.
 
-Full details are available at [http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla).
+Πλήρεις λεπτομέρειες είναι διαθέσιμες στο [http://azure.github.io/guidelines/#cla](http://azure.github.io/guidelines/#cla).
 
-## Repository organization
+## <a name="repository-organization"></a>Εταιρεία αποθετήριο δεδομένων
 
-The content in the azure-content repository follows the organization of documentation on [Azure.Microsoft.com](http://azure.microsoft.com). This repository contains two root folders:
+Το περιεχόμενο στο αποθετήριο azure περιεχόμενο που ακολουθεί την οργάνωση των τεκμηρίωση στη [Azure.Microsoft.com](http://azure.microsoft.com). Αυτό το αποθετήριο δεδομένων περιέχει δύο φακέλους ρίζας:
 
-### \articles
+### <a name="articles"></a>\articles
 
-The *\articles* folder contains the documentation articles formatted as markdown files with an *.md* extension.
+Ο φάκελος *\articles* περιέχει τα άρθρα τεκμηρίωση μορφοποιημένο ως markdown αρχεία με την επέκταση *.md* .
 
-Articles in the root directory are published to Azure.Microsoft.com in the path *http://azure.microsoft.com/documentation/articles/{article-name-without-md}/*.
+Άρθρα στον ριζικό κατάλογο δημοσιεύονται στον Azure.Microsoft.com στη διαδρομή *http://azure.microsoft.com/documentation/articles/ {άρθρο-όνομα-χωρίς-md} /*.
 
-* **Article filenames:** See [our file naming guidance](./contributor-guide/file-names-and-locations.md).
+* **Άρθρο ονόματα αρχείων:** Δείτε [το αρχείο ονομασία οδηγίες](./contributor-guide/file-names-and-locations.md).
 
-Articles within their own service folder are published to Azure.Microsoft.com in the path
-*http://azure.microsoft.com/documentation/articles/service-folder/{article-name-without-md}/*
+Άρθρα στο δικό τους φάκελο υπηρεσίας δημοσιεύονται στον Azure.Microsoft.com στη διαδρομή *http://azure.microsoft.com/documentation/articles/service-folder/ {άρθρο-όνομα-χωρίς-md} /*
 
-* **Media subfolders:** The *\articles* folder contains the *\media* folder for root directory article media files, inside which are subfolders with the images for each article.  The service folders contain a separate media folder for the articles within each service folder. The article image folders are named identically to the article file, minus the *.md* file extension.
+* **Υποφακέλων πολυμέσων:** Ο φάκελος *\articles* περιέχει το φάκελο *\media* για τα αρχεία πολυμέσων άρθρο ριζικού καταλόγου, μέσα που είναι υποφακέλους με τις εικόνες για κάθε άρθρο.  Οι φάκελοι υπηρεσίας περιέχουν πολυμέσων ξεχωριστό φάκελο για τα άρθρα μέσα σε κάθε φάκελο της υπηρεσίας. Οι φάκελοι εικόνα άρθρο ονομάζονται τον ίδιο τρόπο στο αρχείο άρθρο, μείον την επέκταση αρχείου *.md* .
 
-### \includes
+### <a name="includes"></a>\includes
 
-You can create reusable content sections to be included in one or more articles. See [Custom extensions used in our technical content](./contributor-guide/custom-markdown-extensions.md).
+Μπορείτε να δημιουργήσετε με δυνατότητα επανάληψης χρήσης περιεχομένου ενότητες για να συμπεριληφθεί σε ένα ή περισσότερα άρθρα. Ανατρέξτε στο θέμα [Προσαρμογή επεκτάσεις χρησιμοποιείται σε μας τεχνικό περιεχόμενο](./contributor-guide/custom-markdown-extensions.md).
 
-### \markdown templates
+### <a name="markdown-templates"></a>πρότυπα \markdown
 
-This folder contains our standard markdown template with the basic markdown formatting you need for an article.
+Αυτός ο φάκελος περιέχει το πρότυπο τυπική markdown με τη μορφοποίηση βασικές markdown που χρειάζεστε για ένα άρθρο.
 
-### \contributor-guide
+### <a name="contributor-guide"></a>\contributor-Guide
 
-This folder contains articles that are part of our contributors' guide.  
+Αυτός ο φάκελος περιέχει άρθρα που αποτελούν μέρος των συνεργατών μας οδηγό.  
 
-## Use GitHub, Git, and this repository
+## <a name="use-github-git-and-this-repository"></a>Χρήση GitHub, Git και αυτό το αποθετήριο δεδομένων
 
-For information about how to contribute, how to use the GitHub UI to contribute small changes, and how to fork and clone the repository for more significant contributions, see [Install and set up tools for authoring in GitHub](./contributor-guide/tools-and-setup.md).
+Για πληροφορίες σχετικά με τον τρόπο για να συνεισφέρετε, πώς μπορείτε να χρησιμοποιήσετε το περιβάλλον εργασίας Χρήστη GitHub για να συνεισφέρετε μικρές αλλαγές και πώς μπορείτε να διαχωρίζονται και κλωνοποίηση του αποθετηρίου για πιο σημαντική συνεισφορά, ανατρέξτε στο θέμα [εγκατάσταση και ρύθμιση του εργαλεία για σύνταξη από κοινού με GitHub](./contributor-guide/tools-and-setup.md).
 
-If you install GitBash and choose to work locally, the steps for creating a new local working branch, making changes, and submitting the changes back to the main branch are listed in [Git commands for creating a new article or updating an existing article](./contributor-guide/git-commands-for-master.md)
+Εάν εγκαταστήσετε GitBash και επιλέξτε ώστε να λειτουργεί τοπικά, τα βήματα για τη δημιουργία νέας τοπικής υποκατάστημα εργασίας, τις αλλαγές και υποβολή πίσω τις αλλαγές στον κύριο κλάδο παρατίθενται στον [Git εντολές για να δημιουργήσετε ένα νέο άρθρο ή ενημερώνετε υπάρχοντα άρθρα](./contributor-guide/git-commands-for-master.md)
 
-### Branches
+### <a name="branches"></a>Διακλαδώσεις
 
-We recommend that you create local working branches that target a specific scope of change. Each branch should be limited to a single concept/article both to streamline work flow and reduce the possibility of merge conflicts.  The following efforts are of the appropriate scope for a new branch:
+Συνιστάται να δημιουργήσετε τοπικό διακλαδώσεις εργασία που στοχεύουν σε ένα συγκεκριμένο εύρος της αλλαγής. Κάθε κλάδο πρέπει να περιορίζεται σε ένα μεμονωμένο έννοια/άρθρο τόσο για να βελτιστοποιήσετε την ροή εργασίας και να μειώσετε την πιθανότητα διενέξεων συγχώνευσης.  Οι παρακάτω προσπάθειες είναι το κατάλληλο πεδίο για ένα νέο κλάδο:
 
-* A new article (and associated images)
-* Spelling and grammar edits on an article.
-* Applying a single formatting change across a large set of articles (e.g. new copyright footer).
+* Ένα νέο άρθρο (και συσχετισμένες εικόνες)
+* Ορθογραφικός και γραμματικός έλεγχος αλλαγές σε ένα άρθρο.
+* Εφαρμογή μία αλλαγή μορφοποίησης σε ένα μεγάλο σύνολο άρθρα (π.χ. νέα πνευματικών δικαιωμάτων υποσέλιδο).
 
-## How to use markdown to format your topic
+## <a name="how-to-use-markdown-to-format-your-topic"></a>Πώς μπορείτε να χρησιμοποιήσετε markdown για να μορφοποιήσετε το θέμα
 
-All the articles in this repository use GitHub flavored markdown.  Here's a list of resources.
+Όλα τα άρθρα σε αυτό το αποθετήριο δεδομένων Χρησιμοποιήστε GitHub flavored markdown.  Ακολουθεί μια λίστα με πόρους.
 
-- [Markdown basics](https://help.github.com/articles/markdown-basics/)
+- [Βασικά στοιχεία markdown](https://help.github.com/articles/markdown-basics/)
 
-- [Printable markdown cheatsheet](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
+- [Cheatsheet εκτυπώσιμη markdown](./contributor-guide/media/documents/markdown-cheatsheet.pdf?raw=true)
 
-- For our list of markdown editors, see the [tools and setup topic](./contributor-guide/tools-and-setup.md#install-a-markdown-editor).
+- Για τη λίστα markdown συντάκτες, ανατρέξτε στο θέμα τα [Εργαλεία και το θέμα εγκατάστασης](./contributor-guide/tools-and-setup.md#install-a-markdown-editor).
 
-## Article metadata
+## <a name="article-metadata"></a>Το άρθρο μετα-δεδομένων
 
-Article metadata enables certain functionalities on the azure.microsoft.com web site, such as author attribution, contributor attribution, breadcrumbs, article descriptions, and SEO optimizations as well as reporting Microsoft uses to evaluate the performance of the content. So, the metadata is important! [Here's the guidance for making sure your metadata is done right](./contributor-guide/article-metadata.md).
+Το άρθρο μετα-δεδομένων επιτρέπει ορισμένες λειτουργίες στην τοποθεσία web azure.microsoft.com, όπως συντάκτης ανάθεση, ανάθεση συμβολής, δυναμικές διαδρομές, το άρθρο περιγραφές και SEO βελτιστοποιήσεις, καθώς και αναφορών Microsoft χρησιμοποιεί για να αξιολογήσετε τις επιδόσεις του περιεχομένου. Επομένως, τα μετα-δεδομένα είναι σημαντικό! [Δείτε τις οδηγίες για να εξασφαλίσετε ότι μετα-δεδομένων του γίνεται προς τα δεξιά](./contributor-guide/article-metadata.md).
 
-### Labels
+### <a name="labels"></a>Ετικέτες
 
-Automated labels are assigned to pull requests to help us manage the pull request workflow and to help let you know what's going on with your pull request:
+Αυτοματοποιημένη ετικέτες έχουν εκχωρηθεί για να αποσπάσετε αιτήσεις για Βοηθήστε μας να διαχειριστείτε τη ροή εργασίας αίτηση ελκυστική και για να σας ενημερώσει τι συμβαίνει με την αίτησή σας ελκυστική:
 
-* Contribution License Agreement related
-    * cla-not-required: The change is relatively minor and does not require that you sign a CLA.
-    * cla-required: The scope of the change is relatively large and requires that you sign a CLA.
-    * cla-signed: The contributor signed the CLA, so the pull request can now move forward for review.
-* Pillar labels: Labels such as PnP, Modern Apps, and TDC help categorize the pull requests by the internal organization that needs to review the pull request.
-* Change sent to author: The author has been notified of the pending pull request.
+* Συμβολή άδεια χρήσης που σχετίζονται με
+    * απαιτείται δεν cla: Η αλλαγή είναι σχετικά μικρή και δεν απαιτεί ότι μπορείτε να εισέλθετε μια CLA.
+    * απαιτείται cla: το εύρος της αλλαγής είναι σχετικά μεγάλο και απαιτεί να εισέλθετε μια CLA.
+    * υπογεγραμμένο cla: το συμβολής πραγματοποιήσει το CLA, ώστε να την αίτηση ελκυστική τώρα να Μετακίνηση προς τα εμπρός για αναθεώρηση.
+* Ορθοστάτη που κείται ετικέτες: ετικέτες όπως Τοποθέτησης και Άμεσης λειτουργίας, μοντέρνα εφαρμογές και ΕΑΣ να κατηγοριοποιήσετε τις αιτήσεις ελκυστική από την εσωτερική οργάνωση που πρέπει να εξετάσετε την αίτηση ελκυστική.
+* Αλλαγή που αποστέλλονται σε σύνταξη: Ο συντάκτης έχει ενημερωθεί για την αίτηση ελκυστική σε εκκρεμότητα.
 
-## More resources
+## <a name="more-resources"></a>Περισσότεροι πόροι
 
-See the [index of our contributor's guide](./contributor-guide/contributor-guide-index.md) for all our guidance topics.
+Ανατρέξτε στο θέμα του [ευρετηρίου του οδηγού μας συμβολής](./contributor-guide/contributor-guide-index.md) για όλα τα θέματα καθοδήγηση μας.

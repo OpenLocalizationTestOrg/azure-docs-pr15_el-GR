@@ -1,0 +1,5 @@
+> [AZURE.IMPORTANT] Υποστήριξη για τη διαχείριση των πόρων HDInsight χρησιμοποιώντας Azure Service Manager (ASM) μέσω του PowerShell Azure και το Azure CLI έχει __καταργηθεί__και θα καταργηθούν από 1 Ιανουαρίου 2017. Τα βήματα σε αυτό το έγγραφο, χρησιμοποιήστε τα νέα cmdlet του Azure PowerShell και τις εντολές Azure CLI που λειτουργούν με το διαχειριστή πόρων Azure (ARM).
+>
+> Ακολουθήστε τα βήματα στην [εγκατάσταση και ρύθμιση παραμέτρων CLI Azure](../articles/xplat-cli-install.md) και [εγκατάσταση και ρύθμιση παραμέτρων Azure PowerShell](../articles/powershell-install-configure.md) για να εγκαταστήσετε την πιο πρόσφατη έκδοση του Azure PowerShell και το Azure CLI. Εάν έχετε υπάρχουσες δέσμες ενεργειών που πρέπει να είναι δυνατή η τροποποίηση για να χρησιμοποιήσετε το cmdlet του νέου ή νέων εντολών CLI, ανατρέξτε στο θέμα [μετεγκατάσταση εργαλεία ανάπτυξης εφαρμογών που βασίζονται στο Azure από διαχειριστή πόρων για HDInsight συμπλεγμάτων](../articles/hdinsight/hdinsight-hadoop-development-using-azure-resource-manager.md) για περισσότερες πληροφορίες.
+
+
