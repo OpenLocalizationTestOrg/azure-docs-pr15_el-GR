@@ -1,0 +1,4 @@
+## <a name="prerequisite-install-the-azure-powershell-module"></a>Προϋπόθεση: Εγκατάσταση της λειτουργικής μονάδας Azure PowerShell
+Για να εκτελέσετε τα βήματα που περιγράφονται σε αυτό το άρθρο, θα πρέπει να [να εγκαταστήσετε και να ρυθμίσετε τις παραμέτρους του PowerShell Azure](../articles/powershell-install-configure.md) και ακολουθήστε τις οδηγίες προς το τέλος για να συνδεθείτε στο Azure και επιλέξτε τη συνδρομή σας.
+
+> [AZURE.NOTE] Εάν δεν έχετε λογαριασμό Azure, θα χρειαστεί μία. Μεταβείτε εισόδου για μια [δωρεάν δοκιμαστική έκδοση εδώ](../articles/active-directory/sign-up-organization.md). 

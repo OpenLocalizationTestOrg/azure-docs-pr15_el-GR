@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT] Για να εργαστείτε με Azure πόρους, να εξοικειωθείτε με τα μοντέλα ανάπτυξης: [Διαχείριση πόρων, και κλασική](../articles/resource-manager-deployment-model.md).
