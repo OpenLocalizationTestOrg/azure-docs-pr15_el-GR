@@ -1,0 +1,1 @@
+> [AZURE.IMPORTANT]  Αυτό το περιεχόμενο έχει καταργηθεί και δεν είναι πλέον διατηρούνται.  Για μια σύνοψη των Oracle υποστήριξη στο Azure, ανατρέξτε στο θέμα [αυτό δημοσιευτεί υποστήριξη δήλωση.](http://www.oracle.com/technetwork/topics/cloud/faq-1963009.html#support)
